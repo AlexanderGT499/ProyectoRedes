@@ -36,30 +36,146 @@
 
   <p style="font-size: 18px;">El cableado o sistema de distribución horizontal consiste de dos elementos básicos: <strong>Rutas</strong> y <strong>Espacios</strong>
   estas rutas son utilizadas para distribuir y soportar cable horizontal y conectar hardware entre la salida  del área de trabajo y el cuarto de telecomunicaciones. Estas 
-  rutas y espacios son los "contenedores" del cableado horizontal y deben tenerse en cuenta las siguientes consideraciones:<br></p>
+  rutas y espacios son los "contenedores" del cableado horizontal y deben tenerse en cuenta las siguientes consideraciones:<br>
+  </p>
+
   <ol style="font-size: 18px;">
     <li>Si existiera cielo raso suspendido se recomienda la utilización de canaletas<br>
        para transportar los cables horizontales.</li><br>
     <li>Una tubería de unos 2 centímetros por cada dos cables UTP.</li><br>
     <li>Una tubería de 2,54cm por cada cable de dos fibras ópticas.</li><br>
   </ol>
+
   <p style="font-size: 18px;">
-  El cableado horizontal debe incluir:
+
+  <strong>El cableado horizontal debe incluir:</strong>
   </p>
+
   <ol style="font-size: 18px;">
     <li>Las salidas (cajas/placas/conectores) de telecomunicaciones en el área de trabajo,<br>
       llamados WAO (work area outlets).</li><br>
     <li>Una tubería de unos 2 centímetros por cada dos cables UTP.</li><br>
     <li>Una tubería de 2,54cm por cada cable de dos fibras ópticas.</li><br>
   </ol>
+
    <p style="font-size: 18px;">
-  Distancias Máximas
+
+  <strong>Distancias Máximas</strong>
   </p>
+
   <img src="Imágenes\Distancias Máximas.jpg"
      alt="Distancias Máximas"
      width="500">
+
   <h3>Cableado vertical</h3>
 
+  <img src="Imágenes\diagrama cableado estructurado vertical.jpg"
+     alt="cableado estructurado"
+     width="450"
+    style="float:right; margin-left:10px;">
+
+  <p style="font-size: 18px;">En el cableado vertical, a diferencia del horizontal, resulta más ventajoso realizar instalaciones independientes para la telefonía y datos.<br>
+  Realiza la conexión vertical entre los diferentes pisos, estableciendo los medios de transmisión, puntos principales e intermedios de conexión cruzada y terminaciones mecánicas necesarias.</p>
+  <ol style="font-size: 18px;">
+    <li>Es el encargado de interconectar los closet de telecomunicaciones,los cuartos de equipos y la acometida.</li><br>
+    <li>Se acepta cable UTP, STP, y fibra óptica monomodo y multimodo.</li><br>
+    <li>Cables utilizados y distancias
+
+      <ol style="font-size: 18px;"><br>
+        <li>UTP (voz): 800 mts. F.O multimodo: 2000mts</li>
+        <li>STP (voz): 700 mts. F.O monomodo: 3000mts</li>
+        <li>UTP (voz): 90 mts</li>
+      </ol>
+
+    </li><br>  
+    <li>Se mantiene topología en estrella</li><br>
+    <li>Máximo dos niveles jerárquicos de crosconexión: principal e intermedio.</li>
+  </ol>
+
+  <p style="font-size: 18px;"> 
+    Una vez que se haya determinado el tipo de cable a usar, el cableado vertical debe tener en cuenta <strong>tres factores:</strong>
+  </p>
+
+  <ol style="font-size: 18px;">
+    <li>El cuarto de comuicaciones</li><br>
+    <li>La toma de tierra</li><br>
+    <li>Perturbaciones de la transmisión</li><br>
+  </ol>
+
+  <p><Strong>Montaje cableado vertical</Strong></p>
+
+  <img src="Imágenes\montaje cableado vertical.jpg"
+     alt="Montaje cableado vertical"
+     width="400">
+
+  <h3>Cuarto de Comunicaciones</h3>
+
+   <img src="Imágenes\Cuarto de telecomunicaciones.jpg"
+     alt="Cuarto de telecomunicaciones"
+     width="500"
+     style="float:right; margin-left:10px;">
+
+  <p style="font-size: 18px;">Usualmente llamado armario o clóset de comunicaciones es el área destinada en exclusiva para albergar los elementos que conforman la infraestructura de telecomunicaciones. Es decir, la sala en la que se alojan<br>
+    y centralizan todos los elementos que componen el sistema de telecomunicaciones: los cables, accesorios de conexión, dispositivos de protección y demás equipos<br> 
+    necesarios para conectar el edificio a los servicios externos. Necesita de unas características especiales para cumplir correctamente su función.
+  </p>
+
+  <p style="font-size: 18px;">
+    Su <strong>función principal</strong> es que actúa como el punto de distribución central para un piso o área específica. Es el espacio donde:
+  </p>
+
+  <ol style="font-size: 18px;">
+    <li>El cableado <strong>vertical</strong> (Backbone) que viene de la sala principal de equipos (MDF) termina.</li>
+    <li>El cableado <strong>horizontal</strong> que se dirige a las áreas de trabajo (hacia los usuarios) comienza.</li>
+  </ol>
+
+  <p style="font-size: 18px;"><strong>Componentes Típicos</strong></p>
+  <ol style="font-size: 18px;">
+
+  <!--display: flex; coloca la imagen y el texto en una misma línea horizontal.
+
+  align-items: flex-start; asegura que el texto empiece alineado arriba con la imagen.
+
+  margin-right: 20px; da un pequeño espacio entre imagen y texto.-->   
+
+  <!-- Equipos Pasivos -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <!-- Imagen -->
+  <img src="Imágenes/Elementos Pasivos.jpg"
+       alt="Elementos pasivos"
+       width="200"
+       style="margin-right: 20px; border: 1px solid #ccc;">
+
+  <!-- Texto -->
+  <div>
+    <h3>Equipos Pasivos</h3>
+    <ol style="font-size: 18px;">
+      <li><strong>Racks o Gabinetes:</strong> Estructuras metálicas para montar equipos.</li>
+      <li><strong>Patch Panels:</strong> Paneles donde terminan los cables horizontales y verticales.</li>
+      <li><strong>Conexiones Cruzadas (Cross-Connects):</strong> Bloques de terminación y puentes de conexión.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Equipos Activos -->
+<div style="display: flex; align-items: flex-start;">
+  <!-- Imagen -->
+  <img src="Imágenes/Elementos Activos.jpg"
+       alt="Elementos activos"
+       width="300"
+       style="margin-right: 20px; border: 1px solid #ccc;">
+
+  <!-- Texto -->
+  <div>
+    <h3>Equipos Activos</h3>
+    <ol style="font-size: 18px;">
+      <li><strong>Switches de Red:</strong> Dispositivos que conectan a todos los usuarios de ese piso.</li>
+      <li><strong>Routers/Gateways:</strong> Estos dependen del diseño de la red.</li>
+      <li><strong>Equipos de Voz:</strong> Entre ellos se encuentran (PBX o Voz IP).</li>
+      <li><strong>Equipos de CCTV o seguridad.</strong></li>
+    </ol>
+  </div>
+</div>
 
 
 
