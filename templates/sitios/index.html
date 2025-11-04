@@ -69,7 +69,7 @@
 
   <h3>Cableado vertical</h3>
 
-  <img src="static\img\diagrama cableado-estructurado-vertical.jpg"
+  <img src="static\img\diagrama-cableado-estructurado-vertical.jpg"
      alt="diagrama cableado estructurado vertical"
      width="450"
     style="float:right; margin-left:10px;">
@@ -197,20 +197,217 @@
 
   <!--Tipos cable UTP-->
   <h2>Tipos de Cable</h2>
+  
+  <img src="static\img\seniales-digitales-medios-de-cobre.jpg"
+     alt="seniales-digitales-medios-de-cobre"
+     width="400"
+     style="float:right; margin-left:10px;">
+
   <p style=" font-size: 18px;">
     <strong>Cableado de cobre</strong>
   </p>
-  <p style="font-size: 18px;">Características de los medios de cobre</p>
+
+  <p style="font-size: 18px;"><strong>Características de los medios de cobre:</strong></p>
   <ol style="font: 18px;">
-    <li>Se transmiten por cables de cobre mediante impulsos eléctricos</li>
-    <li>Atenuación: cuanto más lejos viaja la señal, más se deteriora.</li>
-    <li>Todos los medios de cobre deben seguir limitaciones estrictas sobre la distancia</li>
+    <li>Se transmiten por cables de cobre mediante impulsos eléctricos.</li><br>
+    <li><strong>Atenuación: </strong>cuanto más lejos viaja la señal, más se deteriora.</li><br>
+    <li>Todos los medios de cobre deben seguir limitaciones estrictas sobre la distancia</li><br>
+    <li>Interferencia electromagnética (EMI) o interferencia de radiofrecuencia (RFI):<br>distorsiona y daña las señales de datos que transportan los medios de cobre.</li><br>
+    <li><strong>Comunicación:</strong> perturbación causada por los campos eléctricos o magnéticos de una señal de un hilo a la señal de un hilo adyacente.</li><br>
   </ol>
+  <p style="font-size: 18px;"><strong>Medios de cobre:</strong><br>
+    <br>Existen tres tipos principales de medios de cobre que se utilizan en las redes.
+  </p>
+  <img src="static\img\medios-principales-de-cobre.jpg"
+     alt="medios-principales-de-cobre"
+     width="600">
+  <!-- display: flex;: Este estilo coloca el contenido en un diseño flexible que alinea los elementos horizontalmente.
 
+  flex: 1;: Asegura que tanto el texto como la imagen ocupen la misma cantidad de espacio disponible.
 
+  padding-left: 20px;: Añade espacio entre el texto y la imagen para evitar que se vean muy pegados.
 
+  width="100%" y max-width: 400px;: Asegura que las imágenes no se estiren más de lo necesario y se ajusten de acuerdo con el tamaño disponible. -->
 
-  <!--Tipos cable UTP-->
+  <div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+    <p style="font-size: 18px;"><strong>Cable de par trenzado no blindado</strong></p>
+    <ol style="font-size: 18px;">
+      <li>El cableado UTP es el medio que más se utiliza en redes.</li><br>
+      <li>Terminado con conectores RJ-45.</li><br>
+      <li>Utilizado para interconectar hosts de red con dispositivos de red, como switches.</li><br>
+      <li>Consta de cuatro pares de hilos codificados por colores que están trenzados entre sí para ayudar a proteger contra las interferencias de señales de otros hilos.</li><br>
+      <li>Los códigos de color ayudan en la terminación de cable.</li><br>
+    </ol>
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <img src="static\img\cable-de-par-trenzado-no-blindado.jpg" alt="cable-de-par-trenzado-no-blindado" width="100%" style="max-width: 400px;">
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 30px;">
+  <div style="flex: 1;">
+    <p style="font-size: 18px;"><strong>Cable de par trenzado blindado (STP)</strong></p>
+    <ol style="font-size: 18px;">
+      <li>El STP proporciona una mejor protección contra el ruido que el UTP.</li><br>
+      <li>El cable STP es mucho más costoso y difícil de instalar.</li><br>
+      <li>Utiliza un conector RJ-45.</li><br>
+      <li>Combina las técnicas de blindaje para contrarrestar la EMI y la RFI, y el trenzado de hilos para contrarrestar la comunicación.</li><br>
+      <li>Utiliza cuatro pares de hilos. Cada uno de estos pares está empaquetado primero con un blindaje de hoja metálica y, luego, el conjunto se empaqueta con una malla tejida o una hoja metálica.</li><br>
+    </ol>
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <img src="static\img\cable-de-par-trenzado-blindado.jpg" alt="cable-de-par-trenzado-blindado" width="100%" style="max-width: 400px;">
+  </div>
+</div>
+
+<div>
+  <p style="font-size: 18px;"><strong>Seguridad de los medios de cobre</strong></p>
+  <p style="font-size: 18px;">Los medios de cobre son vulnerables a peligros eléctricos y a incendios.</p>
+  <img src="static\img\seguridad-de-los-medios-de-cobre.jpg"
+     alt="seguridad-de-los-medios-de-cobre"
+     width="500">
+</div>
+  <div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+  <p style="font-size: 18px;"><strong>Estándares de cableado UTP</strong></p>
+    <ol style="font-size: 18px;">
+      <li>El cableado UTP cumple con los estándares establecidos por la TIA/EIA.<br>
+        <br><ol style="font-size: 18px;">
+          <li>TIA/EIA-568 establece los estándares de cableado para las instalaciones de LAN</li>
+        </ol>
+      </li><br>
+      <li>Cable de categoría 3<br>
+        <br><ol style="font-size: 18px;">
+          <li>Se utiliza para la comunicación de voz.</li>
+          <li>Se utiliza con mayor frecuencia para líneas telefónicas.</li>
+        </ol>
+      </li><br>
+      <li>Cable de categoría 5 y 5e<br>
+        <br><ol style="font-size: 18px;">
+          <li>Utilizado para la transmisión de datos.</li>
+          <li>Los cables de categoría 5 admiten velocidades de 100 Mb/s y pueden admitir velocidades de 1000 Mb/s, pero esto no se recomienda.</li>
+          <li>Los cables Cat5e admiten velocidades de 1000 Mbps.</li>
+        </ol>
+      </li><br>
+      <li> Cable de categoría 6<br>
+        <br><ol style="font-size: 18px;">
+          <li>Utilizado para la transmisión de datos.</li>
+          <li>Cuenta con un separador agregado entre cada par de cables para permitir que funcione a velocidades más elevadas.</li>
+          <li> Admite velocidades desde 1000 Mb/s hasta 10 Gb/s, aunque esta última no se recomienda.</li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <img src="static\img\estandares-cableado-utp.jpg"
+    alt="estandares-cableado-utp" 
+    width="50%" 
+    style="max-width: 400px;">
+  </div>   
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 30px;">
+  <div style="flex: 1;">
+    <p style="font-size: 18px;"><strong>Conectores UTP</strong></p>
+    <ol style="font-size: 18px;">
+      <li>Los cables UTP se terminan con un conector RJ-45.</li><br>
+      <li>El estándar TIA/EIA-568 describe las asignaciones de la codificación por colores de los cables a los pines (distribución de terminales) para los cables de Ethernet.</li><br>
+      <li>El conector RJ-45 es el componente macho engarzado al extremo del cable.</li><br>
+      <li> El socket es el componente hembra en un dispositivo de red, una pared, una toma en la partición de un cubículo o un panel de conexiones.</li><br>
+      <li>Es fundamental que todas las terminaciones de medios de cobre sean de calidad superior para garantizar el rendimiento óptimo con tecnologías de red actuales y futuras.</li><br>
+    </ol>
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+    <img src="static\img\conectore-rj45.jpg" 
+    alt="conectore-rj45" 
+    width="100%" 
+    style="max-width: 400px;">
+  </div>
+</div>
+<img src="static\img\tipos-cables-utp.jpg" 
+    alt="tipos-cables-utp" 
+    width="600px" 
+    style="max-width: 400px;">
+
+<div style="display: flex; align-items: flex-start; margin-top: 30px;">
+  <!-- Sección: Cableado de fibra óptica -->
+  <div style="flex: 1;">
+    <p style="font-size: 18px;"><strong>Cableado de fibra óptica</strong></p>
+    <ol style="font-size: 18px;">
+      <li>
+        En la actualidad, el cableado de fibra óptica se utiliza en cuatro tipos de industrias:
+        <ol style="font-size: 18px; margin-top: 10px;">
+          <li>Redes empresariales</li>
+          <li>Redes de largo alcance</li>
+          <li>Fibre-to-the-Home (FTTH)</li>
+          <li>Redes por cable submarinas</li>
+        </ol>
+      </li>
+      <li>Transmite datos a través de distancias más extensas y a anchos de banda mayores.</li>
+      <li>Transmite señales con menos atenuación y es totalmente inmune a EMI y RFI.</li>
+      <li>Utilizado para interconectar dispositivos de red.</li>
+      <li>Hilo flexible, pero extremadamente delgado y transparente de vidrio muy puro, no mucho más grueso que un cabello humano.</li>
+      <li>Los bits se codifican en la fibra como pulsos de luz.</li>
+    </ol>
+  </div>
+
+  <div style="flex: 1; padding-left: 20px;">
+    <img src="static/img/fibra-optica-monomodo-multimodo.jpg" alt="fibra óptica monomodo y multimodo" width="100%" style="max-width: 800px;">
+  </div>
+</div>
+
+<hr style="margin: 40px 0;">
+
+<div style="display: flex; align-items: flex-start; margin-top: 30px;">
+  <!-- Sección: Conectores de fibra óptica -->
+  <div style="flex: 1;">
+    <p style="font-size: 18px;"><strong>Conectores de fibra óptica</strong></p>
+    <ol style="font-size: 18px;">
+      <li>Se requieren dos fibras para realizar una operación dúplex completo ya que la luz solo puede viajar en una dirección a través de la fibra óptica.</li>
+      <li>
+        Conectores de punta directa (ST)
+        <ol style="font-size: 18px; margin-top: 10px;">
+          <li>Uno de los primeros tipos de conectores utilizados.</li>
+          <li>Bloquea en forma segura con una "tapa a rosca".</li>
+        </ol>
+      </li>
+      <li>
+        Conectores suscriptor (SC)
+        <ol style="font-size: 18px; margin-top: 10px;">
+          <li>Se lo denomina conector cuadrado o conector estándar.</li>
+          <li>Utiliza un mecanismo de vaivén para asegurar la inserción adecuada.</li>
+          <li>Utilizado con fibra óptica multimodo y monomodo.</li>
+        </ol>
+      </li>
+      <li>
+        Conectores Lucent (LC) simplex
+        <ol style="font-size: 18px; margin-top: 10px;">
+          <li>Versión más pequeña de SC y popular debido al tamaño.</li>
+        </ol>
+      </li>
+      <li>
+        Conectores LC multimodo dúplex
+        <ol style="font-size: 18px; margin-top: 10px;">
+          <li>Similar a un conector LC, pero utiliza un conector dúplex.</li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+
+  <div style="flex: 1; padding-left: 20px;">
+    <img src="static/img/conectore-de-fibra-optica.jpg" alt="conectores de fibra óptica" width="100%" style="max-width: 800px;">
+  </div>
+</div>
+
+<div style="font-size: 18px;">
+  <p><strong>Comparación entre fibra óptica y cobre</strong></p>
+  <img src="static\img\comparacion-fibra-optica-cobre.jpg" 
+    alt="comparacion-fibra-optica-cobre" 
+    width="60%">
+
+</div>
+
 
   <!--Dispositivos de Interconexión-->
 
